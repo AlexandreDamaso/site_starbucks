@@ -23,8 +23,15 @@ body {
     align-items: center;
     height: 100px;
 }
+.smenu {
+    display: flex;
+    align-items: center;
+}
 .header-area--logo img {
     width: 64px;
+}
+.header-area--search {
+    margin-right: 50px;
 }
 .header-area--search form {
     display: flex;
@@ -46,7 +53,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .header-area--search img {
     width: 14px;
+}
+.header-area--menu img {
+    width: 34px;
 }
